@@ -1,3 +1,0 @@
-# meetilaiya.github.io
-Personal stuff. 
-Dont use...
