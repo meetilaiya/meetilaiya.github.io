@@ -32,5 +32,16 @@ $(window).load(function() {
       e.preventDefault();
       $('body,html').animate({scrollTop: 0}, 500);
     });
-
+	$('.anchorLink').click(function (e) {
+		if(!$("#idBtnNavBarExpndClps").hasClass("collapsed"))
+		{
+			$("#idBtnNavBarExpndClps").addClass("collapsed");
+			if($("#idNavMenu").hasClass("in"))
+			{
+				$("#idNavMenu").removeClass("in").addClass("collapse").css({"height":"1px"});
+			}
+			
+			//alert($("#idBtnNavBarExpndClps").hasClass("collapsed"));
+		}
+	});
   });

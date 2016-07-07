@@ -136,12 +136,12 @@ hr{
 /* Main */
 
 .main{
-	background-size:cover;
-	-webkit-background-size:cover;
+	
+	/* -webkit-background-size:cover;
 	-moz-background-size:cover;
-	-o-background-size:cover;
+	-o-background-size:cover; */
 	width:100%;
-	background:#ddd url('../img/mainback.jpg') no-repeat center center;
+	background:#ddd url('../img/mainback.jpg') no-repeat center ;
 	padding-top:40px;
 	padding-bottom:40px;
 	border-bottom:1px solid #444;
@@ -442,8 +442,8 @@ hr{
 }
 
 /*Ilaiya start*/
-.clsFontRed
+.clsFontOnMainImage
 {
-	color:#e9331b !important;
+	color:#800606 !important;
 }
 /*Ilaiya end*/
