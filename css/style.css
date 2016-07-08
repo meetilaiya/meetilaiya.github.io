@@ -442,8 +442,17 @@ hr{
 }
 
 /*Ilaiya start*/
+
 .clsFontOnMainImage
 {
 	color:#800606 !important;
 }
+
+/*Image cube*/
+.clscube {
+ width: 200px;
+ height: 150px; 
+ margin-left: 17%;
+}
+
 /*Ilaiya end*/
