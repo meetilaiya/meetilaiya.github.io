@@ -45,3 +45,10 @@ $(window).load(function() {
 		}
 	});
   });
+  
+ //Ilaiya
+ 
+$(function () {
+	$('#cubevisva').imagecube();
+	$('#cubehema').imagecube();
+});
