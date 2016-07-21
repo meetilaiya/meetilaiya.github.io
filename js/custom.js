@@ -1,54 +1,12 @@
-/* FlexSlider */
+(function($) {
 
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: true,
-    pauseOnHover: true,
-    slideshowSpeed: 3000,
-    prevText: "", 
-    nextText: ""
-  });
-});
+// prettyPhoto
+	jQuery(document).ready(function(){
+		jQuery('a[data-gal]').each(function() {
+			jQuery(this).attr('rel', jQuery(this).data('gal'));
+		});  	
+		jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
+	}); 
 
-
-/* Scroll to Top */
-
-  $(".totop").hide();
-
-  $(function(){
-    $(window).scroll(function(){
-      if ($(this).scrollTop()>300)
-      {
-        $('.totop').slideDown();
-      } 
-      else
-      {
-        $('.totop').slideUp();
-      }
-    });
-
-    $('.totop a').click(function (e) {
-      e.preventDefault();
-      $('body,html').animate({scrollTop: 0}, 500);
-    });
-	$('.anchorLink').click(function (e) {
-		if(!$("#idBtnNavBarExpndClps").hasClass("collapsed"))
-		{
-			$("#idBtnNavBarExpndClps").addClass("collapsed");
-			if($("#idNavMenu").hasClass("in"))
-			{
-				$("#idNavMenu").removeClass("in").addClass("collapse").css({"height":"1px"});
-			}
-			
-			//alert($("#idBtnNavBarExpndClps").hasClass("collapsed"));
-		}
-	});
-  });
-  
- //Ilaiya
- 
-$(function () {
-	$('#cubevisva').imagecube();
-	$('#cubehema').imagecube();
-});
+		
+})(jQuery);

@@ -1,4 +1,0 @@
-git add .
-git commit -m "Photos updated"
-git remote add origin https://github.com/meetilaiya/meetilaiya.github.io.git
-git push origin master
