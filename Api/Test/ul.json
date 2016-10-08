@@ -1,5 +1,5 @@
 [
     {
-        "html": "<ul data-role=\"listview\" data-inset=\"true\">\r\n         <li><a href=\"#\">\r\n            <img src=\"\/jquery_mobile\/images\/apple.jpg\" class=\"ui-li-thumb\">\r\n            <h2>Fruits<\/h2>\r\n            <p>Apple<\/p>\r\n            <p class=\"ui-li-aside\">Apple<\/p><\/a>\r\n         <\/li>\r\n         <li><a href=\"#\">\r\n            <img src=\"\/jquery_mobile\/images\/cherry.jpg\" class=\"ui-li-thumb\">\r\n            <h2>Fruits<\/h2>\r\n            <p>Cherry<\/p>\r\n            <p class=\"ui-li-aside\">Cherry<\/p><\/a>\r\n         <\/li>\r\n         <li><a href=\"#\">\r\n            <img src=\"\/jquery_mobile\/images\/grapes.jpg\" class=\"ui-li-thumb\">\r\n            <h2>Fruits<\/h2>\r\n            <p>Grapes<\/p>\r\n            <p class=\"ui-li-aside\">Grapes<\/p><\/a>\r\n         <\/li>\r\n         <li><a href=\"#\">\r\n            <img src=\"\/jquery_mobile\/images\/watermelon.jpg\" class=\"ui-li-thumb\">\r\n            <h2>Fruits<\/h2>\r\n            <p>Watermelon<\/p>\r\n            <p class=\"ui-li-aside\">Watermelon<\/p><\/a>\r\n         <\/li>\r\n      <\/ul>"
+        "html": "<b>test b</b><br/><div style='color:red;'>test red</div>"
     }
 ]
